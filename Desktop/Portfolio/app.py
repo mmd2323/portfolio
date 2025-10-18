@@ -92,7 +92,7 @@ with open("Mamadou_Mbengue_Resume_ENG.pdf", "rb") as file:
     st.download_button(
         label="Download Resume (PDF)",
         data=file,
-        file_name="Mamadou_Mbengue_Resume.pdf",
+        file_name="Mamadou_Mbengue_Resume_ENG.pdf",
         mime="application/pdf"
     )
 
